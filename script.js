@@ -1,6 +1,6 @@
 var start = Date.now();
 
-if(localStorage.getItem("logisv") != "null"){
+if(localStorage.getItem("logisv")){
   start = localStorage.getItem("logisv");
 }
 
